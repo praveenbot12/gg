@@ -4,7 +4,7 @@ mkdir -p .devcontainer
 cat <<EOL > .devcontainer/devcontainer.json
 {
     "name": "My Codespace",
-    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12",
     "features": {
         "ghcr.io/devcontainers/features/sshd:1": {
             "version": "latest"
